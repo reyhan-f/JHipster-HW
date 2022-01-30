@@ -1,0 +1,18 @@
+apiVersion: skaffold/v1
+kind: Config
+build:
+  artifacts:
+    - image: masteringmicroservicerf/gateway
+      context: ../gateway
+      jib: {}
+    - image: masteringmicroservicerf/invoice
+      context: ../invoice
+      jib: {}
+    - image: masteringmicroservicerf/notification
+      context: ../notification
+      jib: {}
+  tagPolicy:
+    envTemplate:
+      template: "{{.IMAGE_NAME}}:latest"
+deploy:
+  kustomize: {}

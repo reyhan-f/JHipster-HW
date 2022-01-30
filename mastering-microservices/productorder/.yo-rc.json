@@ -38,6 +38,8 @@
     "skipCommitHook": true,
     "jwtSecretKey": "MTZkZmQ3ZGFjYzI0MThjNTY4ODk3NGVlMmE3YjliZjcxMTE4NzBkNzMzMDI5MWFiMzdiOWYwOTBhMjY1NWMzODU2YTc4MjVhYTM3YjQxZWYzYzIwYmUxODlkNTc5ZGFlNDI5YzJkMTU5ZTVjYzdmMzM2NjRmYjVjZWU3ZjNkY2U=",
     "languages": ["en", "fr"],
-    "enableGradleEnterprise": false
+    "enableGradleEnterprise": false,
+    "entities": ["Product", "ProductCategory", "Customer", "ProductOrder", "OrderItem"],
+    "lastLiquibaseTimestamp": 1643276459000
   }
 }

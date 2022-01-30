@@ -23,7 +23,7 @@ plugins {
     //jhipster-needle-gradle-plugins - JHipster will add additional gradle plugins here
 }
 
-group = "com.mycompany.myapp"
+group = "com.mycompany.store"
 version = "0.0.1-SNAPSHOT"
 
 description = ""
@@ -82,7 +82,7 @@ eclipse {
 defaultTasks "bootRun"
 
 springBoot {
-    mainClassName = "com.mycompany.myapp.GatewayApp"
+    mainClassName = "com.mycompany.store.GatewayApp"
 }
 
 test {
